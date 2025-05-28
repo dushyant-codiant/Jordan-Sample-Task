@@ -20,3 +20,12 @@
 .overflow-menu:after {
   display: none;
 }
+
+/* Arrow */
+.menu-arrow {
+  width: 0.6rem;
+  height: 0.35rem;
+  margin-left: 0.25rem;
+  vertical-align: middle;
+  display: inline-block;
+}
