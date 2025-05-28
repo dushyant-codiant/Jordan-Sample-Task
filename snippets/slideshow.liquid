@@ -49,7 +49,7 @@
   {{ header }}
   <slideshow-container ref="slideshowContainer">
     {% if show_arrows %}
-      {% render 'slideshow-arrows', icon_style: icon_style, arrows_position: arrows_position %}
+      {% render 'slideshow-arrows', icon_style: icon_style, arrows_position: arrows_position, icon_shape: "circle" %}
     {% endif %}
     {% if slideshow_arrows %}
       {{ slideshow_arrows }}
