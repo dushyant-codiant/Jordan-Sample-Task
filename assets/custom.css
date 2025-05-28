@@ -1,0 +1,22 @@
+.menu-list__list-item {
+  position: relative;
+}
+
+.menu-list__submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff !important;
+  width: 350px !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.menu-list__submenu a {
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.overflow-menu:after {
+  display: none;
+}
