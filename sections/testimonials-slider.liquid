@@ -93,6 +93,7 @@
     margin-bottom: 40px;
     font-weight: 600;
     color: #2a3b2d;
+    font-family: 'Georgia', serif;
   }
 
   .testimonial-slider {
@@ -179,4 +180,9 @@
     const offset = currentSlide * slider.clientWidth;
     slider.scrollTo({ left: offset, behavior: 'smooth' });
   }
+
+  // ✅ Autoplay every 5 seconds
+  setInterval(() => {
+    moveSlide(1);
+  }, 5000);
 </script>

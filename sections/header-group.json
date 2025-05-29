@@ -28,9 +28,7 @@
           "blocks": {}
         }
       },
-      "block_order": [
-        "announcement_Q7a9Pn"
-      ],
+      "block_order": ["announcement_Q7a9Pn"],
       "settings": {
         "speed": 5,
         "section_width": "page-width",
@@ -114,10 +112,15 @@
         "enable_transparent_header_collection": false,
         "collection_color_scheme": "default"
       }
+    },
+    "collection-circles": {
+      "type": "collection-circles",
+      "settings": {}
     }
   },
   "order": [
     "header_announcements_LGrBGa",
-    "header_section"
+    "header_section",
+    "collection-circles"
   ]
 }
