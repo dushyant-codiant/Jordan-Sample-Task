@@ -10,7 +10,6 @@
     assign color_scheme_classes = ' color-' | append: current_color_scheme
   endif
 
-  # Check if header and menu colors match. This is used to apply different padding styles in css
   if parent_color_scheme.settings.background.rgb == current_color_scheme.settings.background.rgb
     assign color_scheme_classes = color_scheme_classes | append: ' color-scheme-matches-parent'
   endif
@@ -26,7 +25,7 @@
   {% for link in block.settings.menu.links %}
     <li
       role="presentation"
-      class="menu-list__list-item"
+      class="menu-list__list-item has-submenu"
       on:focus="/activate"
       on:blur="/deactivate"
       on:pointerenter="/activate"
@@ -34,22 +33,21 @@
     >
       <a
         role="menuitem"
-        {%- if link.links != blank -%}
+        {% if link.links != blank %}
           aria-haspopup="true"
-        {%- endif -%}
+        {% endif %}
         href="{{ link.url }}"
         class="menu-list__link{% if link.active %} menu-list__link--active{% endif %}"
       >
-      <span class="menu-list__link-title">
-        {{- link.title -}}
-        {% if link.links != blank %}
-            <svg class="menu-arrow" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-            <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        {% endif %}
+        <span class="menu-list__link-title">
+          {{- link.title -}}
+          {% if link.links != blank %}
+            <span class="submenu-arrow">▼</span>
+          {% endif %}
         </span>
       </a>
-      {%- if link.links != blank -%}
+
+      {% if link.links != blank %}
         <div class="menu-list__submenu{{ color_scheme_classes }}" ref="submenu[]">
           <div
             class="menu-list__submenu-inner"
@@ -65,9 +63,10 @@
             %}
           </div>
         </div>
-      {%- endif -%}
+      {% endif %}
     </li>
   {% endfor %}
+
   <li
     class="menu-list__list-item"
     role="presentation"
@@ -92,3 +91,25 @@
     {% render 'overflow-list', class: class, children: children, minimum-items: 2 %}
   </div>
 </nav>
+
+<style>
+  /* Add styles for submenu arrow */
+  .menu-list__link-title {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.25rem !important;
+    position: relative !important;
+  }
+
+  .submenu-arrow {
+    display: inline-block !important;
+    font-size: 0.7em !important;
+    transition: transform 0.3s ease !important;
+    margin-left: 3px !important;
+  }
+
+  /* Rotate arrow on hover */
+  .menu-list__list-item:hover > .menu-list__link .submenu-arrow {
+    transform: rotate(180deg) !important;
+  }
+</style>

@@ -1,0 +1,188 @@
+{% schema %}
+{
+  "name": "Testimonials Slider",
+  "tag": "section",
+  "class": "testimonials-slider",
+  "max_blocks": 10,
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "What Our Customers Say"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "author_image",
+          "label": "Author Image"
+        },
+        {
+          "type": "text",
+          "id": "author_name",
+          "label": "Author Name",
+          "default": "Jane Doe"
+        },
+        {
+          "type": "textarea",
+          "id": "testimonial_text",
+          "label": "Testimonial Text",
+          "default": "This store has completely changed how I shop online. Amazing experience!"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials Slider",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<section class="testimonial-section">
+  <div class="testimonial-container">
+    <h2 class="testimonial-heading">{{ section.settings.section_heading }}</h2>
+    <div class="testimonial-slider" id="testimonial-slider">
+      {% for block in section.blocks %}
+        <div class="testimonial-slide">
+          {% if block.settings.author_image %}
+            <img
+              src="{{ block.settings.author_image | image_url: width: 80 }}"
+              alt="{{ block.settings.author_name }}"
+              class="testimonial-avatar"
+              loading="lazy"
+              width="100%"
+              height="auto"
+            >
+          {% endif %}
+          <p class="testimonial-text">"{{ block.settings.testimonial_text }}"</p>
+          <p class="testimonial-author">— {{ block.settings.author_name }}</p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="testimonial-nav">
+      <button onclick="moveSlide(-1)">‹</button>
+      <button onclick="moveSlide(1)">›</button>
+    </div>
+  </div>
+</section>
+
+<style>
+  .testimonial-section {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+  }
+
+  .testimonial-container {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+  }
+
+  .testimonial-heading {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #2a3b2d;
+    font-family: 'Georgia', serif;
+  }
+
+  .testimonial-slider {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .testimonial-slide {
+    flex: 0 0 100%;
+    padding: 0 20px;
+    transition: transform 0.5s ease-in-out;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically if needed */
+    text-align: center;
+  }
+
+  .testimonial-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 2px solid #c5c5c5;
+    display: block;
+  }
+
+  .testimonial-text {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+
+  .testimonial-author {
+    font-weight: 600;
+    color: #1a3e2d;
+  }
+
+  .testimonial-nav {
+    margin-top: 20px;
+  }
+
+  .testimonial-nav button {
+    background: #e5e5e5;
+    border: none;
+    font-size: 1.5rem;
+    margin: 0 8px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .testimonial-nav button:hover {
+    background: #ccc;
+  }
+
+  @media (max-width: 768px) {
+    .testimonial-slide {
+      padding: 0 10px;
+    }
+
+    .testimonial-heading {
+      font-size: 1.75rem;
+    }
+  }
+</style>
+
+<script>
+  let currentSlide = 0;
+
+  function moveSlide(direction) {
+    const slider = document.getElementById('testimonial-slider');
+    const totalSlides = slider.children.length;
+    currentSlide += direction;
+
+    if (currentSlide >= totalSlides) currentSlide = 0;
+    if (currentSlide < 0) currentSlide = totalSlides - 1;
+
+    const offset = currentSlide * slider.clientWidth;
+    slider.scrollTo({ left: offset, behavior: 'smooth' });
+  }
+
+  // ✅ Autoplay every 5 seconds
+  setInterval(() => {
+    moveSlide(1);
+  }, 5000);
+</script>

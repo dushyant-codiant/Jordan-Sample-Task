@@ -535,91 +535,13 @@
         "padding-block-end": 48
       }
     },
-    "section_TRMazc": {
-      "type": "section",
-      "blocks": {
-        "text_WMjhLL": {
-          "type": "text",
-          "settings": {
-            "text": "<h1>Welcome to Japanese Maples</h1>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "text_iJMAb4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Empowering all people to be plant people — a collection of articles from The Sill’s team of Plant Experts across a variety of plant care topics to inspire confidence in the next generation of plant parents. Welcome to Plant Parenthood™.<br/><br/></p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 37,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_WMjhLL",
-        "text_iJMAb4"
-      ],
-      "name": "WelcomeSection",
+    "centered_text_block": {
+      "type": "centered-text-block",
       "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-1",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 19,
-        "padding-block-end": 20
+        "heading": "Welcome to Our Store",
+        "subheading": "Our Journey Begins",
+        "paragraph_1": "This is a customizable text block where you can describe your brand’s mission, story, or product values. Use this space to make a connection with your customers.",
+        "paragraph_2": "Feel free to add more information here — whether it's about your products, services, or inspiration. Keep it brief and engaging."
       }
     },
     "section_c6Ynjp": {
@@ -667,7 +589,8 @@
               "type": "icon",
               "settings": {
                 "icon": "eye",
-                "width": 32,
+                "image_upload": "shopify://shop_images/icon-garden-care.png",
+                "width": 116,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -714,7 +637,7 @@
                 "text_9L8wCt": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>Intentional design</h2>",
+                    "text": "<h2>Garden Care</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -739,7 +662,7 @@
                 "text_aQnqcm": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Everything we do starts with why</p>",
+                    "text": "<p>Let’s find a plant combination to suit your border enjoy your time.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -815,7 +738,8 @@
               "type": "icon",
               "settings": {
                 "icon": "heart",
-                "width": 32,
+                "image_upload": "shopify://shop_images/icon-plant-renovation.png",
+                "width": 116,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -862,7 +786,7 @@
                 "text_ARzLfF": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>Made with care</h2>",
+                    "text": "<h2>Plant Revolution</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -887,7 +811,7 @@
                 "text_fWPX8Q": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>We believe in building better</p>",
+                    "text": "<p>Let’s find a plant combination to suit your border enjoy your time.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -963,7 +887,8 @@
               "type": "icon",
               "settings": {
                 "icon": "silhouette",
-                "width": 32,
+                "image_upload": "shopify://shop_images/icon-seed-supply.png",
+                "width": 116,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -1010,7 +935,7 @@
                 "text_84rc3N": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>A team with a goal</h2>",
+                    "text": "<h2>Seed Supply</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1035,7 +960,7 @@
                 "text_FPe4nb": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Real people making great products</p>",
+                    "text": "<p>Let’s find a plant combination to suit your border enjoy your time.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1068,12 +993,162 @@
             "icon_N4McBi",
             "group_HYzwBc"
           ]
+        },
+        "group_cDmUGr": {
+          "type": "group",
+          "settings": {
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "icon_7JfwMK": {
+              "type": "icon",
+              "settings": {
+                "icon": "silhouette",
+                "image_upload": "shopify://shop_images/icon-watering-graden.png",
+                "width": 116,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
+            "group_XTLzKt": {
+              "type": "group",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 4,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_X4cV6W": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h2>Watering Graden</h2>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h3",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_NzLp66": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Let’s find a plant combination to suit your border enjoy your time.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_X4cV6W",
+                "text_NzLp66"
+              ]
+            }
+          },
+          "block_order": [
+            "icon_7JfwMK",
+            "group_XTLzKt"
+          ]
         }
       },
       "block_order": [
         "group_pYQ87k",
         "group_UbPKm3",
-        "group_agQgbn"
+        "group_agQgbn",
+        "group_cDmUGr"
       ],
       "settings": {
         "content_direction": "row",
@@ -1099,6 +1174,173 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "collection_list_FrTYeM": {
+      "type": "collection-list",
+      "blocks": {
+        "group_Ujjq3R": {
+          "type": "group",
+          "settings": {
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_PTKmmr": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Shop by collection</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 16,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_PTKmmr"
+          ]
+        },
+        "static-collection-card": {
+          "type": "collection-card",
+          "static": true,
+          "settings": {
+            "collection": "{{ closest.collection }}",
+            "placement": "below_image",
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "collection_card_gap": 8,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0
+          },
+          "blocks": {
+            "collection_title_9RJnTG": {
+              "type": "collection-title",
+              "settings": {
+                "collection": "{{ closest.collection }}",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true,
+              "settings": {
+                "collection": "{{ closest.collection }}",
+                "image_ratio": "portrait",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "collection_title_9RJnTG"
+          ]
+        }
+      },
+      "block_order": [
+        "group_Ujjq3R"
+      ],
+      "settings": {
+        "collection_list": [
+          "japanese-maples",
+          "trending",
+          "seeds",
+          "plants",
+          "new-arrivals",
+          "best-sellers",
+          "combos",
+          "indoor-plants"
+        ],
+        "layout_type": "grid",
+        "carousel_on_mobile": true,
+        "columns": 3,
+        "mobile_columns": "2",
+        "columns_gap": 60,
+        "bento_gap": 8,
+        "rows_gap": 10,
+        "max_collections": 4,
+        "icons_style": "arrow",
+        "icons_shape": "circle",
+        "section_width": "page-width",
+        "gap": 12,
+        "color_scheme": "",
         "padding-block-start": 48,
         "padding-block-end": 48
       }
@@ -1242,6 +1484,7 @@
       "block_order": [
         "group_gniTGM"
       ],
+      "disabled": true,
       "settings": {
         "collection_list": [
           "japanese-maples",
@@ -1263,6 +1506,52 @@
         "color_scheme": "",
         "padding-block-start": 24,
         "padding-block-end": 24
+      }
+    },
+    "testimonials_slider": {
+      "type": "testimonials-slider",
+      "blocks": {
+        "testimonial_YBtQDQ": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify://shop_images/pexels-criativithy-894081-1821095.jpg",
+            "author_name": "Emily R.",
+            "testimonial_text": "Absolutely love my Japanese Maple! It arrived in perfect condition and has added such elegance to my backyard. The color is stunning, and the packaging was very secure. I’ll definitely be ordering again."
+          }
+        },
+        "testimonial_qVzqaQ": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify://shop_images/pexels-noesito-photograph-583628300-32291376.jpg",
+            "author_name": "Sharon K.",
+            "testimonial_text": "As a first-time plant buyer, I wasn’t sure what to expect — but wow! The detailed care instructions helped me keep my Red Dragon Maple healthy. Fantastic customer service and high-quality plants."
+          }
+        },
+        "testimonial_HwciTy": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify://shop_images/pexels-luizclas-170497-1848471.jpg",
+            "author_name": "Nicole M.",
+            "testimonial_text": "Fast shipping, beautiful selection, and great prices. My Coral Bark Japanese Maple is growing beautifully. This shop clearly knows how to treat their plants and customers!"
+          }
+        },
+        "testimonial_6bfBG9": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify://shop_images/pexels-luizclas-170497-1848471.jpg",
+            "author_name": "Sofia M.",
+            "testimonial_text": "Hands down the best online nursery I’ve used. My Japanese Maple was carefully packed and looks even better than the photos. It’s become the centerpiece of my garden."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_YBtQDQ",
+        "testimonial_qVzqaQ",
+        "testimonial_HwciTy",
+        "testimonial_6bfBG9"
+      ],
+      "settings": {
+        "section_heading": "What Our Customers Say"
       }
     },
     "product_list_qU3bEB": {
@@ -1368,7 +1657,7 @@
               "type": "_product-card-gallery",
               "settings": {
                 "product": "{{ closest.product }}",
-                "image_ratio": "portrait",
+                "image_ratio": "square",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
@@ -1450,9 +1739,9 @@
                     "show_sale_price_first": true,
                     "show_installments": false,
                     "show_tax_info": false,
-                    "type_preset": "h6",
+                    "type_preset": "h4",
                     "width": "100%",
-                    "alignment": "left",
+                    "alignment": "center",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -1506,7 +1795,7 @@
                       "static": true,
                       "settings": {
                         "product": "{{ closest.product }}",
-                        "style_class": "button-secondary"
+                        "style_class": "button"
                       },
                       "blocks": {}
                     },
@@ -1560,9 +1849,11 @@
   "order": [
     "slideshow_YYJmjC",
     "hero_jVaWmY",
-    "section_TRMazc",
+    "centered_text_block",
     "section_c6Ynjp",
+    "collection_list_FrTYeM",
     "collection_list_AGUNFP",
+    "testimonials_slider",
     "product_list_qU3bEB"
   ]
 }

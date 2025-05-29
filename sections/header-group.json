@@ -61,7 +61,7 @@
           "type": "_header-menu",
           "static": true,
           "settings": {
-            "menu": "main-menu",
+            "menu": "plants-menu",
             "menu_style": "featured_products",
             "featured_products_aspect_ratio": "4 / 5",
             "featured_collections_aspect_ratio": "16 / 9",
@@ -114,10 +114,82 @@
         "enable_transparent_header_collection": false,
         "collection_color_scheme": "default"
       }
+    },
+    "collection-circles": {
+      "type": "collection-circles",
+      "blocks": {
+        "collection_R9trYR": {
+          "type": "collection",
+          "settings": {
+            "collection": "japanese-maples"
+          }
+        },
+        "collection_6WB6dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "conifers"
+          }
+        },
+        "collection_WzgtPB": {
+          "type": "collection",
+          "settings": {
+            "collection": "plants"
+          }
+        },
+        "collection_fqdknM": {
+          "type": "collection",
+          "settings": {
+            "collection": "seeds"
+          }
+        },
+        "collection_kFeA8h": {
+          "type": "collection",
+          "settings": {
+            "collection": "trending"
+          }
+        },
+        "collection_irtwJi": {
+          "type": "collection",
+          "settings": {
+            "collection": "combos"
+          }
+        },
+        "collection_jbQjzy": {
+          "type": "collection",
+          "settings": {
+            "collection": "indoor-plants"
+          }
+        },
+        "collection_zQqMqL": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals"
+          }
+        },
+        "collection_abw7rY": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers"
+          }
+        }
+      },
+      "block_order": [
+        "collection_R9trYR",
+        "collection_6WB6dA",
+        "collection_WzgtPB",
+        "collection_fqdknM",
+        "collection_kFeA8h",
+        "collection_irtwJi",
+        "collection_jbQjzy",
+        "collection_zQqMqL",
+        "collection_abw7rY"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "header_announcements_LGrBGa",
-    "header_section"
+    "header_section",
+    "collection-circles"
   ]
 }
