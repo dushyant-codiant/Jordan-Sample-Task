@@ -31,7 +31,6 @@
       "block_order": [
         "announcement_Q7a9Pn"
       ],
-      "name": "t:names.announcement_bar",
       "settings": {
         "speed": 5,
         "section_width": "page-width",
@@ -88,9 +87,9 @@
         }
       },
       "settings": {
-        "logo_position": "center",
+        "logo_position": "left",
         "menu_position": "center",
-        "menu_row": "bottom",
+        "menu_row": "top",
         "show_search": true,
         "search_position": "right",
         "search_row": "top",

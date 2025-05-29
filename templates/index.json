@@ -436,13 +436,12 @@
         "slide_xHYp64"
       ],
       "custom_css": [],
-      "name": "t:names.slideshow",
       "settings": {
-        "icons_style": "arrows_large",
+        "icons_style": "none",
         "slideshow_controls_style": "dots",
         "color_scheme": "",
-        "autoplay": false,
-        "autoplay_speed": 4,
+        "autoplay": true,
+        "autoplay_speed": 3,
         "section_width": "full-width",
         "slide_height": "medium",
         "padding-block-start": 0,
@@ -541,7 +540,6 @@
       "blocks": {
         "text_WMjhLL": {
           "type": "text",
-          "name": "t:names.heading",
           "settings": {
             "text": "<h1>Welcome to Japanese Maples</h1>",
             "width": "100%",
@@ -567,7 +565,6 @@
         },
         "text_iJMAb4": {
           "type": "text",
-          "name": "t:names.text",
           "settings": {
             "text": "<p>Empowering all people to be plant people — a collection of articles from The Sill’s team of Plant Experts across a variety of plant care topics to inspire confidence in the next generation of plant parents. Welcome to Plant Parenthood™.<br/><br/></p>",
             "width": "100%",
@@ -596,7 +593,7 @@
         "text_WMjhLL",
         "text_iJMAb4"
       ],
-      "name": "t:names.custom_section",
+      "name": "WelcomeSection",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -1078,7 +1075,6 @@
         "group_UbPKm3",
         "group_agQgbn"
       ],
-      "name": "t:names.icons_with_text",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -1112,7 +1108,6 @@
       "blocks": {
         "group_gniTGM": {
           "type": "group",
-          "name": "t:names.header",
           "settings": {
             "link": "",
             "open_in_new_tab": false,
@@ -1151,7 +1146,6 @@
           "blocks": {
             "text_Ncwcce": {
               "type": "text",
-              "name": "t:names.text",
               "settings": {
                 "text": "<h3>Shop by collection</h3>",
                 "width": "fit-content",
@@ -1182,7 +1176,6 @@
         },
         "static-collection-card": {
           "type": "collection-card",
-          "name": "t:names.collection_card",
           "static": true,
           "settings": {
             "collection": "{{ closest.collection }}",
@@ -1200,7 +1193,6 @@
           "blocks": {
             "collection_title_M6ykbM": {
               "type": "collection-title",
-              "name": "t:names.collection_title",
               "settings": {
                 "collection": "{{ closest.collection }}",
                 "width": "fit-content",
@@ -1226,7 +1218,6 @@
             },
             "collection-card-image": {
               "type": "_collection-card-image",
-              "name": "t:names.collection_card_image",
               "static": true,
               "settings": {
                 "collection": "{{ closest.collection }}",
@@ -1251,7 +1242,6 @@
       "block_order": [
         "group_gniTGM"
       ],
-      "name": "t:names.collections_bento",
       "settings": {
         "collection_list": [
           "japanese-maples",
@@ -1492,7 +1482,6 @@
                 },
                 "buy_buttons_nymcQY": {
                   "type": "buy-buttons",
-                  "name": "t:names.product_buy_buttons",
                   "settings": {
                     "product": "{{  closest.product }}",
                     "stacking": false,
