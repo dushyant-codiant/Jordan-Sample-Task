@@ -140,10 +140,16 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_ekDW47", "text_qe4phq", "button_MH6bxp"]
+              "block_order": [
+                "text_ekDW47",
+                "text_qe4phq",
+                "button_MH6bxp"
+              ]
             }
           },
-          "block_order": ["group_WpdLd9"]
+          "block_order": [
+            "group_WpdLd9"
+          ]
         },
         "slide_xpYCnR": {
           "type": "_slide",
@@ -273,10 +279,16 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_VPUB3r", "text_QRC7f6", "button_TERFx4"]
+              "block_order": [
+                "text_VPUB3r",
+                "text_QRC7f6",
+                "button_TERFx4"
+              ]
             }
           },
-          "block_order": ["group_FPH3Cm"]
+          "block_order": [
+            "group_FPH3Cm"
+          ]
         },
         "slide_xHYp64": {
           "type": "_slide",
@@ -406,13 +418,23 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_rxwF6C", "text_HYRCCc", "button_iq9qik"]
+              "block_order": [
+                "text_rxwF6C",
+                "text_HYRCCc",
+                "button_iq9qik"
+              ]
             }
           },
-          "block_order": ["group_aaeTPF"]
+          "block_order": [
+            "group_aaeTPF"
+          ]
         }
       },
-      "block_order": ["slide_kFCrKp", "slide_xpYCnR", "slide_xHYp64"],
+      "block_order": [
+        "slide_kFCrKp",
+        "slide_xpYCnR",
+        "slide_xHYp64"
+      ],
       "custom_css": [],
       "settings": {
         "icons_style": "none",
@@ -480,7 +502,10 @@
           "blocks": {}
         }
       },
-      "block_order": ["text_mHXaef", "text_iXYWz6"],
+      "block_order": [
+        "text_mHXaef",
+        "text_iXYWz6"
+      ],
       "disabled": true,
       "settings": {
         "link": "",
@@ -660,10 +685,16 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_9L8wCt", "text_aQnqcm"]
+              "block_order": [
+                "text_9L8wCt",
+                "text_aQnqcm"
+              ]
             }
           },
-          "block_order": ["icon_mdqrrm", "group_3PQC3P"]
+          "block_order": [
+            "icon_mdqrrm",
+            "group_3PQC3P"
+          ]
         },
         "group_UbPKm3": {
           "type": "group",
@@ -803,10 +834,16 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_ARzLfF", "text_fWPX8Q"]
+              "block_order": [
+                "text_ARzLfF",
+                "text_fWPX8Q"
+              ]
             }
           },
-          "block_order": ["icon_tFUGtn", "group_YzBGr9"]
+          "block_order": [
+            "icon_tFUGtn",
+            "group_YzBGr9"
+          ]
         },
         "group_agQgbn": {
           "type": "group",
@@ -946,10 +983,16 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_84rc3N", "text_FPe4nb"]
+              "block_order": [
+                "text_84rc3N",
+                "text_FPe4nb"
+              ]
             }
           },
-          "block_order": ["icon_N4McBi", "group_HYzwBc"]
+          "block_order": [
+            "icon_N4McBi",
+            "group_HYzwBc"
+          ]
         },
         "group_cDmUGr": {
           "type": "group",
@@ -1089,10 +1132,16 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_X4cV6W", "text_NzLp66"]
+              "block_order": [
+                "text_X4cV6W",
+                "text_NzLp66"
+              ]
             }
           },
-          "block_order": ["icon_7JfwMK", "group_XTLzKt"]
+          "block_order": [
+            "icon_7JfwMK",
+            "group_XTLzKt"
+          ]
         }
       },
       "block_order": [
@@ -1196,7 +1245,9 @@
               "blocks": {}
             }
           },
-          "block_order": ["text_PTKmmr"]
+          "block_order": [
+            "text_PTKmmr"
+          ]
         },
         "static-collection-card": {
           "type": "collection-card",
@@ -1258,10 +1309,14 @@
               "blocks": {}
             }
           },
-          "block_order": ["collection_title_9RJnTG"]
+          "block_order": [
+            "collection_title_9RJnTG"
+          ]
         }
       },
-      "block_order": ["group_Ujjq3R"],
+      "block_order": [
+        "group_Ujjq3R"
+      ],
       "settings": {
         "collection_list": [
           "japanese-maples",
@@ -1357,7 +1412,9 @@
               "blocks": {}
             }
           },
-          "block_order": ["text_Ncwcce"]
+          "block_order": [
+            "text_Ncwcce"
+          ]
         },
         "static-collection-card": {
           "type": "collection-card",
@@ -1419,13 +1476,21 @@
               "blocks": {}
             }
           },
-          "block_order": ["collection_title_M6ykbM"]
+          "block_order": [
+            "collection_title_M6ykbM"
+          ]
         }
       },
-      "block_order": ["group_gniTGM"],
+      "block_order": [
+        "group_gniTGM"
+      ],
       "disabled": true,
       "settings": {
-        "collection_list": ["japanese-maples", "supplies-merch", "conifers"],
+        "collection_list": [
+          "japanese-maples",
+          "supplies-merch",
+          "conifers"
+        ],
         "layout_type": "bento",
         "carousel_on_mobile": false,
         "columns": 4,
@@ -1449,13 +1514,42 @@
         "testimonial_YBtQDQ": {
           "type": "testimonial",
           "settings": {
-            "author_image": "shopify://shop_images/pexels-divinetechygirl-1181686.jpg",
-            "author_name": "Jane Doe",
-            "testimonial_text": "This store has completely changed how I shop online. Amazing experience!"
+            "author_image": "shopify://shop_images/pexels-criativithy-894081-1821095.jpg",
+            "author_name": "Emily R.",
+            "testimonial_text": "Absolutely love my Japanese Maple! It arrived in perfect condition and has added such elegance to my backyard. The color is stunning, and the packaging was very secure. I’ll definitely be ordering again."
+          }
+        },
+        "testimonial_qVzqaQ": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify://shop_images/pexels-noesito-photograph-583628300-32291376.jpg",
+            "author_name": "Sharon K.",
+            "testimonial_text": "As a first-time plant buyer, I wasn’t sure what to expect — but wow! The detailed care instructions helped me keep my Red Dragon Maple healthy. Fantastic customer service and high-quality plants."
+          }
+        },
+        "testimonial_HwciTy": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify://shop_images/pexels-luizclas-170497-1848471.jpg",
+            "author_name": "Nicole M.",
+            "testimonial_text": "Fast shipping, beautiful selection, and great prices. My Coral Bark Japanese Maple is growing beautifully. This shop clearly knows how to treat their plants and customers!"
+          }
+        },
+        "testimonial_6bfBG9": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify://shop_images/pexels-luizclas-170497-1848471.jpg",
+            "author_name": "Sofia M.",
+            "testimonial_text": "Hands down the best online nursery I’ve used. My Japanese Maple was carefully packed and looks even better than the photos. It’s become the centerpiece of my garden."
           }
         }
       },
-      "block_order": ["testimonial_YBtQDQ"],
+      "block_order": [
+        "testimonial_YBtQDQ",
+        "testimonial_qVzqaQ",
+        "testimonial_HwciTy",
+        "testimonial_6bfBG9"
+      ],
       "settings": {
         "section_heading": "What Our Customers Say"
       }
@@ -1563,7 +1657,7 @@
               "type": "_product-card-gallery",
               "settings": {
                 "product": "{{ closest.product }}",
-                "image_ratio": "portrait",
+                "image_ratio": "square",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
@@ -1645,9 +1739,9 @@
                     "show_sale_price_first": true,
                     "show_installments": false,
                     "show_tax_info": false,
-                    "type_preset": "h6",
+                    "type_preset": "h4",
                     "width": "100%",
-                    "alignment": "left",
+                    "alignment": "center",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -1701,7 +1795,7 @@
                       "static": true,
                       "settings": {
                         "product": "{{ closest.product }}",
-                        "style_class": "button-secondary"
+                        "style_class": "button"
                       },
                       "blocks": {}
                     },
@@ -1726,7 +1820,10 @@
               ]
             }
           },
-          "block_order": ["product_card_gallery_JgqDGj", "group_7VTJcC"]
+          "block_order": [
+            "product_card_gallery_JgqDGj",
+            "group_7VTJcC"
+          ]
         }
       },
       "settings": {
