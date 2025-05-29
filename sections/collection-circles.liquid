@@ -1,0 +1,100 @@
+{% schema %}
+{
+  "name": "Collection Circles",
+  "tag": "section",
+  "class": "section collection-circles-section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Select Collection"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 12,
+  "presets": [
+    {
+      "name": "Collection Circles",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+{% style %}
+  .collection-circles-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+
+  .collection-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .collection-circle:hover .circle-img {
+    transform: scale(1.05);
+  }
+
+  .circle-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #e0e0e0;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+  }
+
+  .collection-title {
+    margin-top: 0.4rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+  }
+{% endstyle %}
+
+<div class="collection-circles-wrapper">
+  {% for block in section.blocks %}
+    {% if block.settings.collection != blank %}
+      {% assign collection = collections[block.settings.collection] %}
+      {% if collection %}
+        <div class="collection-circle">
+          <a href="{{ collection.url }}">
+            {% if collection.image %}
+              <img
+                src="{{ collection.image | img_url: '240x240', crop: 'center' }}"
+                alt="{{ collection.title }}"
+                class="circle-img"
+                width="100"
+                height="auto"
+              >
+            {% else %}
+              <img
+                src="{{ collection.products.first.featured_image | img_url: '240x240', crop: 'center' }}"
+                alt="{{ collection.title }}"
+                class="circle-img"
+                width="100"
+                height="auto"
+              >
+            {% endif %}
+            <div class="collection-title">{{ collection.title }}</div>
+          </a>
+        </div>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
