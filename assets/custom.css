@@ -28,3 +28,7 @@
   vertical-align: middle;
   display: inline-block;
 } */
+
+.template-product .collection-circles-section {
+  display: none;
+}
