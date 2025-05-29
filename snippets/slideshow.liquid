@@ -48,9 +48,9 @@
 >
   {{ header }}
   <slideshow-container ref="slideshowContainer">
-    {% if show_arrows %}
-      {% render 'slideshow-arrows', icon_style: icon_style, arrows_position: arrows_position, icon_shape: "circle" %}
-    {% endif %}
+    {% comment %} {% if show_arrows %}
+      {% render 'slideshow-arrows', icon_style: icon_style, arrows_position: arrows_position, icon_shape: 'circle' %}
+    {% endif %} {% endcomment %}
     {% if slideshow_arrows %}
       {{ slideshow_arrows }}
     {% endif %}
