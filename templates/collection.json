@@ -126,7 +126,7 @@
           "static": true,
           "settings": {
             "product": "{{ closest.product }}",
-            "product_card_gap": 12,
+            "product_card_gap": 22,
             "inherit_color_scheme": true,
             "color_scheme": "",
             "border": "none",
@@ -134,7 +134,7 @@
             "border_opacity": 100,
             "border_radius": 0,
             "padding-block-start": 0,
-            "padding-block-end": 0,
+            "padding-block-end": 40,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -257,7 +257,6 @@
                 },
                 "buy_buttons_KtHE9n": {
                   "type": "buy-buttons",
-                  "name": "t:names.product_buy_buttons",
                   "settings": {
                     "product": "{{  closest.product }}",
                     "stacking": false,
