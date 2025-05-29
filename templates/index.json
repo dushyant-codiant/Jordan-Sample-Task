@@ -1222,7 +1222,7 @@
             "text_PTKmmr": {
               "type": "text",
               "settings": {
-                "text": "<h3>Shop by collection</h3>",
+                "text": "<h3>Shop by Category</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1296,7 +1296,7 @@
               "static": true,
               "settings": {
                 "collection": "{{ closest.collection }}",
-                "image_ratio": "portrait",
+                "image_ratio": "square",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
@@ -1323,18 +1323,15 @@
           "trending",
           "seeds",
           "plants",
-          "new-arrivals",
-          "best-sellers",
-          "combos",
-          "indoor-plants"
+          "new-arrivals"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": true,
-        "columns": 3,
+        "columns": 5,
         "mobile_columns": "2",
         "columns_gap": 60,
         "bento_gap": 8,
-        "rows_gap": 10,
+        "rows_gap": 36,
         "max_collections": 4,
         "icons_style": "arrow",
         "icons_shape": "circle",
@@ -1506,52 +1503,6 @@
         "color_scheme": "",
         "padding-block-start": 24,
         "padding-block-end": 24
-      }
-    },
-    "testimonials_slider": {
-      "type": "testimonials-slider",
-      "blocks": {
-        "testimonial_YBtQDQ": {
-          "type": "testimonial",
-          "settings": {
-            "author_image": "shopify://shop_images/pexels-criativithy-894081-1821095.jpg",
-            "author_name": "Emily R.",
-            "testimonial_text": "Absolutely love my Japanese Maple! It arrived in perfect condition and has added such elegance to my backyard. The color is stunning, and the packaging was very secure. I’ll definitely be ordering again."
-          }
-        },
-        "testimonial_qVzqaQ": {
-          "type": "testimonial",
-          "settings": {
-            "author_image": "shopify://shop_images/pexels-noesito-photograph-583628300-32291376.jpg",
-            "author_name": "Sharon K.",
-            "testimonial_text": "As a first-time plant buyer, I wasn’t sure what to expect — but wow! The detailed care instructions helped me keep my Red Dragon Maple healthy. Fantastic customer service and high-quality plants."
-          }
-        },
-        "testimonial_HwciTy": {
-          "type": "testimonial",
-          "settings": {
-            "author_image": "shopify://shop_images/pexels-luizclas-170497-1848471.jpg",
-            "author_name": "Nicole M.",
-            "testimonial_text": "Fast shipping, beautiful selection, and great prices. My Coral Bark Japanese Maple is growing beautifully. This shop clearly knows how to treat their plants and customers!"
-          }
-        },
-        "testimonial_6bfBG9": {
-          "type": "testimonial",
-          "settings": {
-            "author_image": "shopify://shop_images/pexels-luizclas-170497-1848471.jpg",
-            "author_name": "Sofia M.",
-            "testimonial_text": "Hands down the best online nursery I’ve used. My Japanese Maple was carefully packed and looks even better than the photos. It’s become the centerpiece of my garden."
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_YBtQDQ",
-        "testimonial_qVzqaQ",
-        "testimonial_HwciTy",
-        "testimonial_6bfBG9"
-      ],
-      "settings": {
-        "section_heading": "What Our Customers Say"
       }
     },
     "product_list_qU3bEB": {
@@ -1844,6 +1795,52 @@
         "padding-block-start": 48,
         "padding-block-end": 96
       }
+    },
+    "testimonials_slider": {
+      "type": "testimonials-slider",
+      "blocks": {
+        "testimonial_YBtQDQ": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify://shop_images/pexels-criativithy-894081-1821095.jpg",
+            "author_name": "Emily R.",
+            "testimonial_text": "Absolutely love my Japanese Maple! It arrived in perfect condition and has added such elegance to my backyard. The color is stunning, and the packaging was very secure. I’ll definitely be ordering again."
+          }
+        },
+        "testimonial_qVzqaQ": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify://shop_images/pexels-noesito-photograph-583628300-32291376.jpg",
+            "author_name": "Sharon K.",
+            "testimonial_text": "As a first-time plant buyer, I wasn’t sure what to expect — but wow! The detailed care instructions helped me keep my Red Dragon Maple healthy. Fantastic customer service and high-quality plants."
+          }
+        },
+        "testimonial_HwciTy": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify://shop_images/pexels-luizclas-170497-1848471.jpg",
+            "author_name": "Nicole M.",
+            "testimonial_text": "Fast shipping, beautiful selection, and great prices. My Coral Bark Japanese Maple is growing beautifully. This shop clearly knows how to treat their plants and customers!"
+          }
+        },
+        "testimonial_6bfBG9": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify://shop_images/pexels-luizclas-170497-1848471.jpg",
+            "author_name": "Sofia M.",
+            "testimonial_text": "Hands down the best online nursery I’ve used. My Japanese Maple was carefully packed and looks even better than the photos. It’s become the centerpiece of my garden."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_YBtQDQ",
+        "testimonial_qVzqaQ",
+        "testimonial_HwciTy",
+        "testimonial_6bfBG9"
+      ],
+      "settings": {
+        "section_heading": "What Our Customers Say"
+      }
     }
   },
   "order": [
@@ -1853,7 +1850,7 @@
     "section_c6Ynjp",
     "collection_list_FrTYeM",
     "collection_list_AGUNFP",
-    "testimonials_slider",
-    "product_list_qU3bEB"
+    "product_list_qU3bEB",
+    "testimonials_slider"
   ]
 }
