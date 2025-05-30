@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/dup.jpg",
-    "logo_inverse": "shopify://shop_images/dup.jpg",
-    "favicon": "shopify://shop_images/favicon-32x32.png",
+    "logo": "shopify://shop_images/logo_7.png",
+    "logo_inverse": "shopify://shop_images/logo_7.png",
+    "favicon": "shopify://shop_images/apple-touch-icon.png",
     "type_body_font": "inter_n4",
     "type_subheading_font": "inter_n5",
     "type_heading_font": "inter_n7",
