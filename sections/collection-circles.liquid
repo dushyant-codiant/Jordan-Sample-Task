@@ -79,10 +79,16 @@
       padding: 1.5rem 1rem;
       scroll-snap-type: x mandatory;
       -webkit-overflow-scrolling: touch;
+      margin: 0;
+      width: 100%;
+      justify-content: flex-start;
+      scroll-padding: 0 1rem;
     }
 
     .collection-circle {
-      scroll-snap-align: center;
+      scroll-snap-align: start;
+      min-width: 80px;
+      padding: 0;
     }
 
     .collection-circles-wrapper::-webkit-scrollbar {
