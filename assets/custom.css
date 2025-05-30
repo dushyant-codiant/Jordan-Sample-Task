@@ -32,3 +32,53 @@
 .template-product .collection-circles-section {
   display: none;
 }
+
+a.size-style.button {
+  border-radius: 0;
+  background-color: #318484;
+  color: #fff;
+}
+
+/* Slideshow content animations */
+slideshow-slide h2,
+slideshow-slide p,
+slideshow-slide .button {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Reset animation state for hidden slides */
+slideshow-slide[aria-hidden="true"] h2,
+slideshow-slide[aria-hidden="true"] p,
+slideshow-slide[aria-hidden="true"] .button {
+  opacity: 0;
+  transform: translateY(20px);
+  transition-delay: 0s;
+}
+
+/* Animate content when slide becomes visible */
+slideshow-slide[aria-hidden="false"] h2 {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.2s;
+}
+
+slideshow-slide[aria-hidden="false"] p {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.4s;
+}
+
+slideshow-slide[aria-hidden="false"] .button {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.6s;
+}
+
+/* Ensure smooth transitions between slides */
+slideshow-component[transitioning] slideshow-slide h2,
+slideshow-component[transitioning] slideshow-slide p,
+slideshow-component[transitioning] slideshow-slide .button {
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
