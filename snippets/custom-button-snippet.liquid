@@ -1,0 +1,56 @@
+{% doc %}
+  Intended for use in a block similar to the button block.
+
+  @param {string} link - link to render, will override settings.link
+  @param {object} [block] - The block
+
+  @example
+  {% render 'button', link: '/collections/all' %}
+{% enddoc %}
+
+{% stylesheet %}
+  .custom-button {
+    display: inline-block !important;
+    padding: 12px 24px !important;
+    background-color: #2ecc71 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 0 !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: background-color 0.3s ease !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+
+    &:hover {
+      background-color: #27ae60 !important;
+      color: #ffffff !important;
+      text-decoration: none !important;
+    }
+
+    &[aria-disabled="true"] {
+      opacity: 0.6 !important;
+      cursor: not-allowed !important;
+    }
+  }
+{% endstylesheet %}
+
+{% assign link = link | default: block.settings.link %}
+
+<a
+  {% if link == blank %}
+    role="link"
+    aria-disabled="true"
+  {% else %}
+    href="{{ link }}"
+  {% endif %}
+  class="custom-button"
+  {%- if block.settings.open_in_new_tab -%}
+    target="_blank"
+    rel="noopener noreferrer"
+  {%- endif -%}
+  {{ block.shopify_attributes }}
+>
+  {{ block.settings.label }}
+</a>
