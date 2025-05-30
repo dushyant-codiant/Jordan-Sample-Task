@@ -66,7 +66,7 @@
                 "border_opacity": 100,
                 "border_radius": 0,
                 "toggle_overlay": true,
-                "overlay_color": "#1e171758",
+                "overlay_color": "#1e171759",
                 "overlay_style": "gradient",
                 "gradient_direction": "to top",
                 "padding-block-start": 48,
@@ -155,7 +155,7 @@
           "type": "_slide",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/japanese-maple-tree.jpg",
+            "image_1": "shopify://shop_images/autumn-7493439_1280.jpg",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -186,9 +186,9 @@
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 19,
+                "gap": 22,
                 "width": "custom",
                 "custom_width": 50,
                 "width_mobile": "custom",
@@ -205,8 +205,8 @@
                 "border_opacity": 100,
                 "border_radius": 0,
                 "toggle_overlay": true,
-                "overlay_color": "#3b2e2eb5",
-                "overlay_style": "solid",
+                "overlay_color": "#1e171759",
+                "overlay_style": "gradient",
                 "gradient_direction": "to top",
                 "padding-block-start": 48,
                 "padding-block-end": 48,
@@ -233,7 +233,7 @@
                     "background_color": "#00000026",
                     "corner_radius": 0,
                     "padding-block-start": 0,
-                    "padding-block-end": 0,
+                    "padding-block-end": 39,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
@@ -290,11 +290,11 @@
             "group_FPH3Cm"
           ]
         },
-        "slide_xHYp64": {
+        "slide_z4QHaj": {
           "type": "_slide",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/japanese-maple-5748611_960_720.jpg",
+            "image_1": "shopify://shop_images/banner-2.jpg",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -315,7 +315,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "group_aaeTPF": {
+            "group_yhdzRc": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -325,9 +325,9 @@
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 27,
+                "gap": 22,
                 "width": "custom",
                 "custom_width": 50,
                 "width_mobile": "custom",
@@ -344,8 +344,8 @@
                 "border_opacity": 100,
                 "border_radius": 0,
                 "toggle_overlay": true,
-                "overlay_color": "#332929a6",
-                "overlay_style": "solid",
+                "overlay_color": "#1e171759",
+                "overlay_style": "gradient",
                 "gradient_direction": "to top",
                 "padding-block-start": 48,
                 "padding-block-end": 48,
@@ -353,7 +353,7 @@
                 "padding-inline-end": 48
               },
               "blocks": {
-                "text_rxwF6C": {
+                "text_HDxRGd": {
                   "type": "text",
                   "settings": {
                     "text": "<h2>Bestsellers</h2>",
@@ -372,13 +372,13 @@
                     "background_color": "#00000026",
                     "corner_radius": 0,
                     "padding-block-start": 0,
-                    "padding-block-end": 0,
+                    "padding-block-end": 39,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
                   "blocks": {}
                 },
-                "text_HYRCCc": {
+                "text_bKDKWF": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Discover the bestsellers that have captured the hearts of our customers with their perfect blend of functionality and style.</p>",
@@ -403,7 +403,7 @@
                   },
                   "blocks": {}
                 },
-                "button_iq9qik": {
+                "button_kPzU4J": {
                   "type": "button",
                   "settings": {
                     "label": "Shop now",
@@ -419,21 +419,21 @@
                 }
               },
               "block_order": [
-                "text_rxwF6C",
-                "text_HYRCCc",
-                "button_iq9qik"
+                "text_HDxRGd",
+                "text_bKDKWF",
+                "button_kPzU4J"
               ]
             }
           },
           "block_order": [
-            "group_aaeTPF"
+            "group_yhdzRc"
           ]
         }
       },
       "block_order": [
         "slide_kFCrKp",
         "slide_xpYCnR",
-        "slide_xHYp64"
+        "slide_z4QHaj"
       ],
       "custom_css": [],
       "settings": {
